@@ -13,7 +13,6 @@ public class Account {
 
     private String email;
 
-
     public String getId() {
         return id;
     }

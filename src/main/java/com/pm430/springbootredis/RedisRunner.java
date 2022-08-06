@@ -32,7 +32,6 @@ public class RedisRunner implements ApplicationRunner {
         account.setEmail("open.js@gmail.com");
         account.setUsername("pm430");
 
-
         accountRepository.save(account);
 
         Optional<Account> byId = accountRepository.findById(account.getId());
